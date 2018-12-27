@@ -1,0 +1,236 @@
+@charset "utf-8";
+
+div.page-main {
+   width: 1280px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+div.page-main section h3{
+    height: 30px;
+    line-height: 30px;
+    font-weight: 100;
+    color: #033c5a;
+    padding-left: 10px;
+    border-left: 5px solid #033c5a;
+    margin-bottom: 20px;
+}
+
+div.page-main section h3 span{
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 5px solid #033c5a;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+div.page-main section h3 span span{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #033c5a;
+    margin: 0 auto;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+div.page-main section{
+    float: left;
+}
+div.page-main section:nth-child(4){
+    clear: both;
+}
+div.page-main .info{
+    width: 480px;
+    box-sizing: border-box;
+    padding:14px;background: red;
+}
+.info .info-content{
+    
+}
+.info .info-content li{
+    float: left;
+    width: 225px;
+    height: 190px;
+/*    border-right: 1px solid #2d2d2d;*/
+/*    border-bottom: 1px solid #2d2d2d;*/
+}
+
+.info .info-content li:nth-child(odd){
+    border-right: 1px solid #ccc;
+}
+
+.info .info-content li:nth-child(1),
+.info .info-content li:nth-child(2){
+    border-bottom: 1px solid #ccc;
+}
+
+
+.info .info-content li a{
+    color: #2d2d2d;
+    font-size: 14px;
+}
+.info .info-content li a img{
+    width: 200px;
+    height: 133px;
+    margin: 0 auto;
+    opacity: 0.7;
+    margin-top: 15px
+}
+
+.info .info-content li:hover a img{
+   opacity: 1;
+    transition: all 0.4s;
+}
+
+.info .info-content li a h4{
+    width: 200px;
+    height: 40px;
+    line-height:40px;
+    font-weight:200;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.info .info-content li:hover a h4{
+    color: #e2e2e2;
+    transition: all 0.3s;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+div.page-main .event{
+    width: 400px;
+    box-sizing: border-box;
+    padding:14px ;
+}
+
+.event .event-view{
+    
+}
+.event .event-view li{
+    width: 340px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.event .event-view li a{
+    color: #2d2d2d;
+}
+.event .event-view li a h4{
+    background:linear-gradient(90deg, #033c5a, rgba(0, 0, 0, 0.8)) ;
+    color: #efefef;
+    font-size: 12px;]
+    font-weight: 20px;
+    height: 20px;
+    line-height: 20px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    
+}
+.event .event-view li a h4 span{
+    display: block;
+    float: left;
+    width: 5px;
+    height: 5px;
+    background: #fff;
+    border-radius: 2.5px;
+    margin-top: 7.5px;
+    margin-right: 5px;
+}
+
+.event .event-view li a p{
+    font-size: 11px;
+    box-sizing: border-box;
+    padding: 10px 0 0 15px;
+    height: 40px;
+    letter-spacing: -0.5px;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+
+
+/*Icon begin*/
+
+
+div.page-main .icon{
+ 
+    width: 400px;
+    box-sizing: border-box;
+    padding:14px ;
+}
+
+
+div.page-main .icon .icon-content{}
+.icon .icon-content li{
+    width: 270px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.icon .icon-content li a{
+    display: block;
+    color: #2d2d2d;
+}
+.icon .icon-content li a img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+}
+.icon .icon-content li a h4{
+    font-size: 14px;
+    font-weight: 100;
+    width: 155px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+/*tour begin*/
+
+div.page-main .tour{
+    width: 1280px;
+    box-sizing: border-box;
+    padding: 15px;
+    background: #033c5a;
+    margin-bottom: 30px;
+}
+
+
+
+div.page-main .tour h3{color: #e2e2e2;}
+div.page-main .tour h3 > span{border-color: #e2e2e2;}
+div.page-main .tour h3 > span span{background: #e2e2e2;}
+div.page-main .tour .tour-content{} 
+.tour .tour-content li{
+    float: left;
+    width: 400px;
+}
+.tour .tour-content li:not(:nth-child(3)){margin-right: 25px;}
+.tour .tour-content li a{}
+.tour .tour-content li a img{
+    width: 340px;
+    height: 230px;
+    margin: 0 auto;
+}
+.tour .tour-content li a h4{
+    width: 340px;
+    color: #e2e2e2;
+    font-weight: 100;
+    margin: 15px auto;}
+.tour .tour-content li a p{
+    width: 340px;
+    color: #c2c2c2;
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: -0.5px;
+}
+
+

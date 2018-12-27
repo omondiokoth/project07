@@ -1,0 +1,230 @@
+@charset "utf-8";
+body{
+    background: #fff;
+    font-family: "malgun gothic", "dotum", sans-serif;
+}
+*{margin: 0; padding: 0;}
+a{text-decoration: none;}
+ul{list-style: none;}
+img{display: block;}
+.clear{clear: both;}
+
+/*main color : #033c5a;
+sub color : #6a6a6a;
+text color : #d2d2d2;
+*/
+
+#wrap{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+header{
+    width: 1280px;
+    height: 150px;
+    margin: 0 auto;
+    z-index: 9999;
+}
+header .logo{
+    box-sizing:border-box;
+    padding: 15px 0 0 20px;
+    height: 90px;
+    width: 220px;
+}
+header .logo a{
+    display: block;
+}
+header .logo a img{
+    width: 200px;
+    height: 65px;
+} 
+
+header .main-nav{
+    width: 1100px;
+    height: 50px;
+    margin: 0 auto;
+/*    border: 1px solid #ccc;*/
+/*    background: #033c5a;*/
+}
+header .main-nav > ul{}
+header .main-nav > ul > li{
+    float: left;
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 10px;
+    position: relative;
+    
+}
+header .main-nav > ul > li > a{
+    color: #2d2d2d;
+   font-size: 1em;
+    font-weight: 600;
+    display: block;
+    letter-spacing: -0.7px;
+}
+header .main-nav > ul > li > a:hover{
+    background:  #033c5a;
+    color: #efefef;
+    transition: all 0.3s;
+}
+
+header .main-nav .sub-nav{
+    position: absolute;
+    left: -5px;
+    top: 44px;
+    background: rgba(0, 0, 0, 0.8);
+    width: 180px;
+    height:0px;
+    overflow: hidden;
+    border-top: 5px solid #6a6a6a;
+    box-sizing: border-box;
+}
+
+header .main-nav .sub-nav li{}
+header .main-nav .sub-nav li a{
+    color: #e2e2e2;
+    font-size: 14px;
+    display: block;
+    width: 160px;
+    height: 30px;
+    line-height: 30px;
+    margin:10px auto;
+}
+header .main-nav .sub-nav li a:hover{
+    background: #c4c4c4;
+    color: #2d2d2d;
+    transition: all 0.35px;
+}
+
+.main-nav > ul > li:hover .sub-nav{
+    height: 130px;
+    transition: all 0.4px;}
+
+.main-nav > ul > li:nth-child(3):hover .sub-nav{
+    height: 300px;
+    transition: all 0.4px;}
+
+
+/*header-end*/
+
+/*main-image begin*/
+div.main-image{
+    width: 1280px;
+    margin: 0 auto;
+    height: 300px;
+  overflow: hidden;
+    z-index: -9999; 
+    position: relative;
+}
+
+div.main-image .slide{
+    width: 400%;
+    height: 300px;
+    position: absolute;
+}
+div.main-image .slide img{
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+
+div.main-image h2{
+    position: absolute;
+    width: 1280px;
+    height: 150px;
+    bottom: 75px;
+    background: rgba(255, 255, 255, 0.3);
+    font-size: 130px;
+    color: rgba(0, 0, 0, 0.6);
+    letter-spacing: -12px;
+    text-align: center;
+    font-weight: 100;
+}
+    
+    
+/*footer begin*/
+footer{
+    width: 1280px;
+    height: 160px;
+   margin: 0 auto;
+/*    margin-top: 30px;*/
+    background: #6a6a6a;
+    
+}
+
+footer nav.first-nav{
+    height: 24px;
+    line-height: 24px;
+    padding-top: 10px;
+}
+.first-nav ul{text-align: center;}
+.first-nav ul li{
+    display: inline-block;
+    margin: 0 auto;
+}
+.first-nav ul li a{
+    display: block;
+    color: #cfcfcf;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.first-nav ul li a:hover{
+    color: #efefef;
+    background: #aaa;
+    transition: all 0.3s;
+}
+footer nav.second-nav{
+    float: left;
+    width: 140px;
+    margin: 10px 0 0 50px;
+}
+.second-nav ul{}
+.second-nav ul li{
+    margin-bottom: 5px;
+    height: 16px;
+    width: 140px;
+}
+.second-nav ul li a{
+    display: block;
+    color: #ccc;
+    font-size: 10px;
+    font-weight: 600;
+}
+.second-nav ul li a:hover{ 
+    color: #efefef;
+    transition: all 0.3s;
+}
+
+
+footer nav.third-nav{
+    float: left; 
+    width: `140px;
+    margin: 10px 0 0 20px;
+}
+.third-nav ul{}
+.third-nav ul li{
+    margin-bottom: 2.5px;
+    height: 16px;
+    width: 140px;
+}
+.third-nav ul li a{
+    display: block;
+    color: #ccc;
+    font-size: 10px;
+}
+
+
+footer p.address{
+    float: left;
+    font-size: 12px;
+    color: #ccc;
+    margin: 10px 0 0  40px;
+}
+
+footer div.logo{
+    float: right;
+    margin: 10px 40px 0 0;
+}

@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+#popup{
+    position: fixed;
+    left: 0;
+    top:0;
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: none;
+}
+#popup .p-image{
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    width: 70%;
+    height: 70%;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.9);
+    overflow: hidden;
+}
+
+#popup .p-image .p-content{
+    width: 70%; min-height: 760px;
+    height: 90%; min-height: 900px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+#popup .p-image .p-content img{
+    width: 500px;
+    margin: 0 auto;
+}
+#popup .p-image .p-content h4{
+    width: 500px; margin: 0 auto; margin-top: 10px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #efefef;
+    font-size: 24px;
+    font-weight: 100;
+}
+#popup .p-image .p-content p{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: #c2c2c2;
+    font-size: 16px;
+    text-align: justify;
+    text-indent: 16px;
+}
+
+#popup button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.8);
+    color: #656565;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+}
